@@ -1,0 +1,9 @@
+<ul>
+<a [routerLink]="['/card']"> a </a>
+<div *ngFor="let item of data">
+  <p>{{item.name}}</p>
+</div>
+<button (click)="posthttp()">click me!</button>
+</ul>
+
+<router-outlet></router-outlet>
